@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form">
+            <h2>Index image to RGB image</h2>
+            <label>Index Image</label>
+            <input class="input-style choose-dir" type="file" id="imagePath" webkitdirectory="true" />
+            <input class="input-style width-full" type="text" value="Please select a directory" id="selectedOrgDir" readonly>
+            <label>Number of index color values</label>
+            <!-- <input class="input-style" type="number" id="numIndex" /> -->
+            <button class="input-style" id="numIndex"> Add Row </button>
+            <h3 id="numRows">0</h3>
+
+            <table id="myTable" class="index-input">
+                <thead>
+                    <tr>
+                        <th>Index Value</th>
+                        <th>Red</th>
+                        <th>Green</th>
+                        <th>Blue</th>
+                        <th></th>
+                        <th>N/A</th>
+                    </tr>
+                </thead>
+                <tbody id="addRows">
+                </tbody>
+            </table>
+
+            <button id="run">Run</button>
+            <div class="dirStyle">
+                <h3 style="display: inline; font-size: medium; margin: 0;">Current Directory: </h3>
+                <h3 style="display: inline; font-size: medium; margin-left: 10px; color: #235696;" id="currentDirectory">...</h3>
+            </div>
+            <p id="intheend" class="alert"></p>
+        </div>
+        
+    </div>
+
+    <script src="./renderer/renderer.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+}
+
+.main-container {
+    display: flex;
+    background: #f7f7f7;
+    border: 1px solid #003322;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form {
+    display: block;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.left {
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.notify {
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+    width: 100%;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.input-style {
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.width-full {
+    width: 100%;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    font-size: 14px;
+}
+
+button#run {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#runPlotting:hover {
+    background-color: #45a049;
+}
+
+ul#fileList {
+    list-style-type: none;
+}
+
+.dirStyle {
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.index-input {
+    background: #4CAF50;
+    /* display: block; */
+    box-sizing: border-box;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+thead, tbody {
+    background-color: #721c24;
+    display: table-header-group;
+    width: 100%;
+}
+
+th {
+    padding: 5px 10px;
+    color: cornsilk;
+    font-family: monospace;
+    font-size: 16px;
+    letter-spacing: 0.14rem;
+}
+
+tr {
+   line-height: 30px;
+}
+
+td {
+    box-sizing: border-box;
+}
+
+.remove_btn {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+}
+
+.tb_inp {
+    width: 100%;
+    line-height: 30px;
+    padding: 3px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.color-js {
+    display: block;
+    margin: 1px auto;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    background: #fff;
+}
